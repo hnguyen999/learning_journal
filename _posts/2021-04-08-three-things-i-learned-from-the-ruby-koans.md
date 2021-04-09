@@ -45,3 +45,10 @@ then now it sticks!
 3) map method CHANGES the varilable whereas each method only does the function within the block varilable and doesn't change the original variable
 https://www.rubyguides.com/2018/10/ruby-map-method/
 
+4) House-keeping:
+html limitation: can post or get but cannot "delete" in an edit form. So rails made up for HTML's sucki-ness and we have data-method = "delete". This works for "patch" as well.
+
+SECRUITY CSRF:
+<input type="hidden" name="authenticity_token" value ="<%form_authenticity_token%>
+https://gitpod.io/#snapshot/445c4fa3-279a-4334-a5c6-f5170c26a2da
+
