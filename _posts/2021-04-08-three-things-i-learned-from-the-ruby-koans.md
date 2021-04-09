@@ -43,3 +43,5 @@ then now it sticks!
 
 
 3) map method CHANGES the varilable whereas each method only does the function within the block varilable and doesn't change the original variable
+https://www.rubyguides.com/2018/10/ruby-map-method/
+
