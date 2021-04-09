@@ -10,8 +10,13 @@ In class on 4/8/21, I learned that you can commit to GitHub directly by navigati
 1) I can do the same in Gitpod's terminal and the command is always git add -A; git commit -m. 
 
 If I make commits in Gitpod, I will also need to push them to GitHub:
-git add -A; git commit -m
+git add -A
+git commit -m
 git push
+
+git b- name-of-branch
+git checkout main
+git checkout name-of-branch (to swap to that 1 branch)
 
 2) shovel operator modifies original string (Ruby methods generally do not modify the original string)
 
