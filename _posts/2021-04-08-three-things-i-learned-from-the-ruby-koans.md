@@ -51,4 +51,16 @@ html limitation: can post or get but cannot "delete" in an edit form. So rails m
 SECRUITY CSRF:
 <input type="hidden" name="authenticity_token" value ="<%form_authenticity_token%>
 https://gitpod.io/#snapshot/445c4fa3-279a-4334-a5c6-f5170c26a2da
+                                                       
+5) Short-hands:
+
+x += y   # x = x + y
+x /= y   # x = x / y
+x ||= y  # x = x || y (but see disclaimer for OR below)
+
+
+Both or and || evaluate to true if either operand is true. They evaluate their second operand only if the first is false.
+As with and, the only difference between or and || is their precedence.
+Just to make life interesting, and and or have the same precedence, while && has a higher precedence than ||.
+
 
