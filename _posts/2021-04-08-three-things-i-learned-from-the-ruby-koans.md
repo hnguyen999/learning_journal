@@ -63,4 +63,14 @@ Both or and || evaluate to true if either operand is true. They evaluate their s
 As with and, the only difference between or and || is their precedence.
 Just to make life interesting, and and or have the same precedence, while && has a higher precedence than ||.
 
+6)   def test_raising_a_particular_error
+    result = nil
+    begin
+ **     # 'raise' and 'fail' are synonyms**
+      raise MySpecialError, "My Message"
+    rescue MySpecialError => ex
+      result = :exception_handled
+    end
+    
+    
 
