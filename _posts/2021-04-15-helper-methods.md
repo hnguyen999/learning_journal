@@ -56,7 +56,18 @@ Part 2:
     replaces
     <button> Create movie </button>
   
+3) find_by(id: 1)
+   find(1) ----> if none, it will stop the action and show a 404 page
+ 
+4) name ="zebra[]" RAILS RECOGNIZES THAT WE WANT TO GROUP IT INTO AN ARRAY FOR A PARAMS FETCH 
+  <form>
 
+  <label>Red</label>
+  <input type="checkbox" name="zebra[]" value="red">
 
-    
+  <label>Blue</label>
+  <input type="checkbox" name="zebra[]" value="blue">
+
+  <button>Submit</button>
+  </form>
  
