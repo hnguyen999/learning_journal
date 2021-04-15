@@ -52,6 +52,11 @@ Part 2:
    replaces
       <input type="text" id="title_box" name="query_title" value="<%= @the_movie.title %>">
 
+  <%= button_tag "Create movie"%>
+    replaces
+    <button> Create movie </button>
+  
+
 
     
  
