@@ -40,5 +40,14 @@ Part 2:
     
     <form action="<%= movies_path%>" method="post">
     <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+  
+2) <%= label_tag :title_box, "Title"%>
+    
+  replaces
+      <label for="title_box">
+      Title
+      </label>
+
+
     
  
