@@ -73,7 +73,7 @@ Part 2:
   </form>
   
   
-**  Sub-hashing!!!******
+**  Sub-hashing!!!**
   <form>
 
   <label>Red</label>
