@@ -59,7 +59,8 @@ Part 2:
 3) find_by(id: 1)
    find(1) ----> if none, it will stop the action and show a 404 page
  
-4) name ="zebra[]" RAILS RECOGNIZES THAT WE WANT TO GROUP IT INTO AN ARRAY FOR A PARAMS FETCH 
+4) Check Boxes!!! 
+  name ="zebra[]" RAILS RECOGNIZES THAT WE WANT TO GROUP IT INTO AN ARRAY FOR A PARAMS FETCH 
   <form>
 
   <label>Red</label>
@@ -70,4 +71,20 @@ Part 2:
 
   <button>Submit</button>
   </form>
+  
+  
+**  Sub-hashing!!!******
+  <form>
+
+  <label>Red</label>
+  <input  name="zebra[giraffe]" value="red">
+
+  <label>Blue</label>
+  <input  name="zebra[elephant]" value="blue">
+
+  <button>Submit</button>
+  </form>
+  
+In Terminal:
+Parameters: {"zebra"=>{"giraffe"=>"red 123 ", "elephant"=>"blue 456"}}
  
