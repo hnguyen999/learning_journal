@@ -47,6 +47,10 @@ Part 2:
       <label for="title_box">
       Title
       </label>
+  
+  <%= text_field_tag :query_title, @the_movie.title, { id: "title_box"} %>   [ the last {} hash is simply to label the text field's ID] 
+   replaces
+      <input type="text" id="title_box" name="query_title" value="<%= @the_movie.title %>">
 
 
     
