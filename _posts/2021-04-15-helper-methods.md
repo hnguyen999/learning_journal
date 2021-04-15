@@ -28,4 +28,17 @@ https://3000-amber-sawfish-27b1cyxf.ws-us03.gitpod.io/**rails/info/routes**
  We are going to use helper method link_to:
 
 <%= link_to "Add a new movie", new_movies_path%>
+
+
+Part 2:
+
+1) <%= form_with(url: movies_path) do %>
+    <%end%>
+    
+    Automatically gives us authenticity token, don't have to worry about it!
+    Replaces App Dev 1:
+    
+    <form action="<%= movies_path%>" method="post">
+    <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+    
  
