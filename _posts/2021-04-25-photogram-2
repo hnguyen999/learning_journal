@@ -1,3 +1,4 @@
+1. Add to existing Column in a rails db migration:
 https://blog.arkency.com/how-to-add-a-default-value-to-an-existing-column-in-a-rails-migration/
 
 change_column_default(
@@ -5,3 +6,9 @@ change_column_default(
   column_name,
   default
 )
+
+2. Gem: faker
+https://github.com/faker-ruby/faker
+
+Populate fake sample data: names, usernames, email addresses, etc.
+https://medium.com/@jvolpe721/using-the-faker-gem-ff3d58ecb2c
