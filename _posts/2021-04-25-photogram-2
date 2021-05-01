@@ -12,3 +12,11 @@ https://github.com/faker-ruby/faker
 
 Populate fake sample data: names, usernames, email addresses, etc.
 https://medium.com/@jvolpe721/using-the-faker-gem-ff3d58ecb2c
+
+
+3.  rails g devise user [automate the basic User RCAV for us] additional_input1 additional_input2 additional_input3 (additional input we want to include in the model)
+   
+    rails g devise:views
+Run in terminal: to create view templates for the Users folder
+Devise gem included the basic sign in, sign out, edit forms ---- when we want to customize how they look (and add Bootstrap), we'll run the above rails command and then go into each 
+example: views > users> passwords > view.html.erb -----> make it look nice manually
