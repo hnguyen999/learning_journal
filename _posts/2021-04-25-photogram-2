@@ -19,4 +19,5 @@ https://medium.com/@jvolpe721/using-the-faker-gem-ff3d58ecb2c
     rails g devise:views
 Run in terminal: to create view templates for the Users folder
 Devise gem included the basic sign in, sign out, edit forms ---- when we want to customize how they look (and add Bootstrap), we'll run the above rails command and then go into each 
-example: views > users> passwords > view.html.erb -----> make it look nice manually
+example: views > users> passwords > view.html.erb -----> make it look nice manually (you can copy/paste code or run rails g draft:devise === Raghu created a generator for some nice custom templates)
+
