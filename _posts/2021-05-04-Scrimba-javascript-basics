@@ -67,22 +67,6 @@ RETURNS:
 
 6. Objects in JAVASCRIPT:
 
-let example1 = {
-    firstName: 'Dylan',
-    lastName: 'Israel',
-    address: {
-        city: 'Austin',
-        state: 'Texas'
-    },
-    age: 30,
-    cats: ['Milo', 'Tito', 'Achieles']
-};
-
-example1.age = 31;
-
-console.log(Object.values(example1));
-
-
 let user = {
   firstName: "Hang",
   lastName: "Nguyen",
@@ -96,3 +80,5 @@ let user = {
 console.log(Object.values(user))
 
 RETURNS: ["Hang", "Nguyen", {city: "Philadelphia", state: "PA"}, ["sleep", "eat", "pray"], true]
+
+7. Modula % operator returns the remainder ======= same as Ruby
