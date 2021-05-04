@@ -82,3 +82,18 @@ console.log(Object.values(user))
 RETURNS: ["Hang", "Nguyen", {city: "Philadelphia", state: "PA"}, ["sleep", "eat", "pray"], true]
 
 7. Modula % operator returns the remainder ======= same as Ruby
+
+8 Arithmetic Challenge:
+let price1 = 3;
+let price2 = 5;
+let price3 = 7;
+
+const priceTotal = price1 + price2 + (price3 * 2);
+
+const averagePrice = priceTotal / 4
+
+const finalPrice = priceTotal - 5
+
+console.log(`Your final price is ${priceTotal}`)
+
+RETURNS: Your final price is 22
