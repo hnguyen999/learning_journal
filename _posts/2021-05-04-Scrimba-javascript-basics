@@ -4,3 +4,15 @@ console.log(`${firstName} ${lastName}`);
 RETURNS: Dylan Israel
 
 We can also store them in variables and create a new variable fullName = firstName + " " + lastName
+
+2. Wokiness in Javascript (defying OOC):
+
+let example1 = parseInt("Hello 33 World 22");
+let example2 = parseFloat('44 Dylan 33');
+let example3 = 55.3333.toFixed(0);
+let example4 = 200.0.toFixed(2);
+
+console.log(); null   ---> number
+console.log(); 44   ---> number
+console.log(); 55   ---> string (added on toFixed turned number into string, weird)
+console.log(); 200.00 ---> string (weird)
