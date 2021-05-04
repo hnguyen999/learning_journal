@@ -1,4 +1,4 @@
-1. Concatenation shortcut in Javascript:
+1. Concatenation shortcut/best practice in JavaScript: back-picks `${var} `
 
 console.log(`${firstName} ${lastName}`);
 RETURNS: Dylan Israel
