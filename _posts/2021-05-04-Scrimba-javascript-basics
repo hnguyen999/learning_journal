@@ -16,3 +16,23 @@ console.log(); null   ---> number
 console.log(); 44   ---> number
 console.log(); 55   ---> string (added on toFixed turned number into string, weird)
 console.log(); 200.00 ---> string (weird)
+
+
+3. Falsey vs Truthy in Javascript:
+let example1 = false;
+let example2 = true;
+let example3 = null;
+let example4 = undefined;
+let example5 = '';
+let example6 = NaN;
+let example7 = -5;
+let example8 = 0;
+
+// console.log(Boolean(example1)); falsey
+// console.log(Boolean(example2)); truthy
+// console.log(Boolean(example3)); falsey (developer plans to put a value into Null later on)
+// console.log(Boolean(example4)); falsey
+// console.log(Boolean(example5)); falsey (emptry strings are false) space is truthy
+// console.log(Boolean(example6)); falsey (Not a Number when you're trying to parse a string)
+// console.log(Boolean(example7)); truthy 
+// console.log(Boolean(example8)); falsey (WEIRD WONK IN JAVASCRIPT!)
