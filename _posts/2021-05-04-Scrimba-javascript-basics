@@ -81,3 +81,18 @@ let example1 = {
 example1.age = 31;
 
 console.log(Object.values(example1));
+
+
+let user = {
+  firstName: "Hang",
+  lastName: "Nguyen",
+  address: { 
+      city: "Philadelphia", 
+      state: "PA" },
+    hobbies: ["sleep", "eat", "pray"],
+    goldMember: true
+};
+
+console.log(Object.values(user))
+
+RETURNS: ["Hang", "Nguyen", {city: "Philadelphia", state: "PA"}, ["sleep", "eat", "pray"], true]
