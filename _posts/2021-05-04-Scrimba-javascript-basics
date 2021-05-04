@@ -97,3 +97,11 @@ const finalPrice = priceTotal - 5
 console.log(`Your final price is ${priceTotal}`)
 
 RETURNS: Your final price is 22
+
+8. Equal vs STRICTLY Equal
+== checks the value equal
+=== checks the TYPE + Value equal
+
+10 == 10---> true
+10 == '10' ---> true ; same value same type
+10 === '10' ----> false; same value different type
