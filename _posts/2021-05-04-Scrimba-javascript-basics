@@ -36,3 +36,11 @@ let example8 = 0;
 // console.log(Boolean(example6)); falsey (Not a Number when you're trying to parse a string)
 // console.log(Boolean(example7)); truthy 
 // console.log(Boolean(example8)); falsey (WEIRD WONK IN JAVASCRIPT!)
+
+
+4. Arrays:
+
+let example1=[5,7,6];
+
+console.log(example1[0])
+RETURNS: "5"
