@@ -1,0 +1,6 @@
+1. Concatenation shortcut in Javascript:
+
+console.log(`${firstName} ${lastName}`);
+RETURNS: Dylan Israel
+
+We can also store them in variables and create a new variable fullName = firstName + " " + lastName
