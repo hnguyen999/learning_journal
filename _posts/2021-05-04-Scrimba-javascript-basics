@@ -131,3 +131,23 @@ if (example === 6 || false === true) {
 } else {
     console.log('else')
 }
+
+11. Switch Statements Check Each Case similar to an If Statement (Break in between each case check):
+
+let studentAnswer = 'D';
+
+switch(studentAnswer) {
+    case 'A':
+        console.log('A is wrong');
+        break;
+    case 'B':
+        console.log('B is wrong');
+        break;
+    case 'C':
+        console.log('C is correct.');
+        break;
+    default:
+        console.log('Not a real answer.')
+}
+
+RETURNS: Not a real answer
