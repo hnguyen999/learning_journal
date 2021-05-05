@@ -132,7 +132,8 @@ if (example === 6 || false === true) {
     console.log('else')
 }
 
-11. Switch Statements Check Each Case similar to an If Statement (Break in between each case check):
+11. Switch Case Statements 
+Check each Case similar to an If Statement (Break in between each case check):
 
 let studentAnswer = 'D';
 
