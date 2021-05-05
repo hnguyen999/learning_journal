@@ -1,7 +1,8 @@
-1. Concatenation shortcut/best practice in JavaScript: back-picks `${var} `
+1. Concatenation with a variable shortcut/best practice in JavaScript: back-picks `${var} `
 
 console.log(`${firstName} ${lastName}`);
 RETURNS: Dylan Israel
+" " is the same as ' '
 
 We can also store them in variables and create a new variable fullName = firstName + " " + lastName
 
