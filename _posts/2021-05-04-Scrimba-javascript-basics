@@ -282,3 +282,14 @@ console.log(count);
 
 RETURNS: 1
 It basically did the Do 1 time, then checks the while and since it failed as a "false", stopped.
+
+
+14. Functions:
+
+function add(num1, num2) {
+    return num1 + num2;
+}
+
+console.log(add(10, 6));
+
+RETURNS: 16
