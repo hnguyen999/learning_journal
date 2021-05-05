@@ -152,3 +152,29 @@ switch(studentAnswer) {
 }
 
 RETURNS: Not a real answer
+
+12. Loops:
+
+let total = 0;
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+RETURNS:
+0
+1
+2
+3
+4
+
+let total = 0;
+
+for (let i = 0; i < 5; i++) {
+    total += i;
+}
+
+console.log(total);
+
+RETURNS:
+10
