@@ -213,3 +213,40 @@ RETURNS:
 
 >360
 
+
+*LOOP CHALLENGE - MY SOLUTION*
+
+const cartItems = [
+    { quantity: 1, price: 5 },
+    { quantity: 3, price: 4 },
+    { quantity: 10, price: 1}
+];
+
+let total = 0;
+
+for (let x = 0; x < cartItems.length; x++) {
+    total += cartItems[x].quantity * cartItems[x].price;
+}
+
+console.log(total) 
+
+let totalTaxed = total * 1.08
+
+console.log(totalTaxed)
+
+RETURNS:
+›27
+›29.160000000000004
+
+*LOOP CHALLENGE - A BETTER SOLUTION*
+
+let total = 0
+
+for(const cartItem of cartItems) {
+    total += cartItem.price * cartItem.quantity;
+}
+
+total *= 1.08
+
+console.log(total)
+
