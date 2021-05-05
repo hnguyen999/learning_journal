@@ -250,3 +250,35 @@ total *= 1.08
 
 console.log(total)
 
+
+13. While vs. Do While loops:
+
+let count = 0;
+
+while (true) {
+    count++;
+    
+    if(count >= 20) {
+        break;
+    }
+}
+
+console.log(count);
+
+RETURNS: 20
+
+let count = 0;
+
+do {
+    count++;
+    
+    if(count >= 20) {
+        break;
+    }
+}
+while (false)
+
+console.log(count);
+
+RETURNS: 1
+It basically did the Do 1 time, then checks the while and since it failed as a "false", stopped.
