@@ -15,4 +15,9 @@ var age;
 console.log(age); // undefined
 age = 26;
 
+3- Fix hoisting issue with let & const
+console.log(age);
 
+// temporal dead zone
+
+let age = 26;
