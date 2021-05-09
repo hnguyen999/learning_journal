@@ -41,6 +41,7 @@ MEMORIZE 6 FALSEY IN JS:
 //false
 //0
 //'' "" (empty string)
+//null
 //undefined
 //NaN
 
