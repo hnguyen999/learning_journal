@@ -29,3 +29,10 @@ switch (colorMode) {
     console.log('light mode set!');
     document.body.style.background = 'ghostwhite';
 }
+
+
+
+2. Types:
+
+Implicit Conversion (coercion):
+- if (value) {} -----> Boolean
