@@ -36,3 +36,12 @@ switch (colorMode) {
 
 Implicit Conversion (coercion):
 - if (value) {} -----> Boolean
+
+MEMORIZE 6 FALSEY IN JS:
+//false
+//0
+//'' "" (empty string)
+//undefined
+//NaN
+
+everything else is TRUTHY!
