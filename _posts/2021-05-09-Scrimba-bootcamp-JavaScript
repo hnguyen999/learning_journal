@@ -43,3 +43,5 @@ RESTURNS:
 ›sale price,18
 ›price,20
 
+5. `TEMPLATE LITERALS`
+helps us avoid javascript escapes \ and setence breaks \n or \r
