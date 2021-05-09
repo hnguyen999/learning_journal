@@ -1,0 +1,31 @@
+1. Swicth;case;break;default is a better flow-control-structure than if statements:
+
+const prefersDarkMode = false;
+const prefersSolarizedMode = true;
+
+if (prefersDarkMode) {
+  console.log('dark mode set!');  
+  document.body.style.background = 'black';
+} else if (prefersSolarizedMode) {
+   console.log('solarized mode set!'); 
+} else {    
+  console.log('light mode set!');
+  document.body.style.background = 'ghostwhite';
+}
+
+RE-WRITE USING SWITCH:
+
+const colorMode = 'dark';
+
+switch (colorMode) {
+  case "solarized":
+   console.log('solarized mode set!'); 
+   document.body.style.background = 'palegoldenrod';
+  case 'dark':
+    console.log('dark mode set!');  
+    document.body.style.background = 'black';
+    break;
+  default:  
+    console.log('light mode set!');
+    document.body.style.background = 'ghostwhite';
+}
