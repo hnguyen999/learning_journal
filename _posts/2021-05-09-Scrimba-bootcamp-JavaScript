@@ -21,3 +21,25 @@ console.log(age);
 // temporal dead zone
 
 let age = 26;
+
+4. WHY BLOCK SCOPING MATTERS:
+use let within {} to prevent variables shadowing, re-defining the values and continue to redefine values with no scope!
+
+var price = 20;
+var isSale = true;
+
+// variable shadowing
+// let & const - block-scoped
+if (isSale) {
+  // discount price of product
+  let price = 20 - 2; 
+  // do something 
+  console.log('sale price', price);
+}
+
+console.log('price', price);
+
+RESTURNS:
+›sale price,18
+›price,20
+
