@@ -3,7 +3,16 @@ I - Variables & Strings
 var firstName = "John";
 console.log(username);
 
+1- Javacript Variable = 2 Rules:
 // 1) names only contain letters, numbers, symbol $ _
 // 2) first character must not be a number
+
+2- Use Strict Mode to prevent global vs. local variable confusion. But this does not fix hoisting issue!
+"use strict";
+
+// hoisting
+var age;
+console.log(age); // undefined
+age = 26;
 
 
