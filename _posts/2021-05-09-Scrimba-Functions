@@ -11,3 +11,52 @@ console.log(splitBill(16, 4))
 RETURN:
 ›The bill total is $ 10 for 2 people. Each person should pay $ 5
 ›The bill total is $ 16 for 4 people. Each person should pay $ 4
+
+2. WHAT IS A CLOSURE AND WHY IT MATTERS?
+    Closures keep variables (outside) alive
+    1) Closures are a property of JavaScript functions alone
+    2) Call function in different scope than where function was originally defined.
+    
+function handleLikePost() {
+  let likeCount = 0;
+  return function addLike() {
+    likeCount += 1;    
+    return likeCount;
+  }
+//   addLike();
+  console.log('like count:', likeCount);
+}
+
+const like = handleLikePost();
+
+console.log(like());
+console.log(like());
+console.log(like());
+
+RETURNS:
+>1
+>2
+>3
+
+We can also swap out the += 1 with something dynamic, for example:
+
+function handleLikePost(step) {
+  let likeCount = 0;
+  return function addLike() {
+    likeCount += step;    
+    return likeCount;
+  }
+//   addLike();
+  console.log('like count:', likeCount);
+}
+
+const doubleLike = handleLikePost(2);
+
+console.log(doubleLike());
+console.log(doubleLike());
+console.log(doubleLike());
+
+RETURNS:
+>2
+>4
+>6
