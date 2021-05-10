@@ -32,7 +32,19 @@ switch (colorMode) {
 
 
 
-2. Types:
+2. TYPES:
+
+Primitive types:
+
+string
+number
+boolean
+undefined
+null
+symbol
+
+everything else - Object type
+*/
 
 Implicit Conversion (coercion):
 - if (value) {} -----> Boolean
@@ -46,3 +58,5 @@ MEMORIZE 6 FALSEY IN JS:
 //NaN
 
 everything else is TRUTHY!
+
+
