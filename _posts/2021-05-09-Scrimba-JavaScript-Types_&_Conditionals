@@ -69,3 +69,23 @@ console.log(cartItemCount);
 
 RETURNS: 0
 
+4. Ternaries: || will return the truthy value first, else whatever you designate the falsey value to be
+
+const response = "Reed";
+
+Long Way:
+
+let username;
+if (response) {
+   username = response;
+ } else {
+   username = "guest";
+ }
+ 
+Short way using Ternary and ||:
+
+const username = response || "guest"
+
+console.log(username)
+RETURNS: Reed (if blank, returns "guest")
+
