@@ -1,1 +1,13 @@
+1. Function Challenge Solution
 
+function splitBill (totalBill, numberPeople) {
+    return `The bill total is \$ ${totalBill} for ${numberPeople} people. Each person should pay \$ ${totalBill / numberPeople}`;
+}
+
+// Testing your solution
+console.log(splitBill(10, 2))
+console.log(splitBill(16, 4))
+
+RETURN:
+›The bill total is $ 10 for 2 people. Each person should pay $ 5
+›The bill total is $ 16 for 4 people. Each person should pay $ 4
