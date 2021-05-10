@@ -90,3 +90,7 @@ const username = response || "guest"
 console.log(username)
 RETURNS: Reed (if blank, returns "guest")
 
+
+**&&** truthy left to right, string together conditions
+const username = isEmailVerified && response || "guest";
+RETURNs: "guest"
