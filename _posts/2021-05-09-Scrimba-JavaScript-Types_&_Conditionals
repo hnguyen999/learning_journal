@@ -91,6 +91,9 @@ console.log(username)
 RETURNS: Reed (if blank, returns "guest")
 
 
-**&&** truthy left to right, string together conditions
+**&&** truthy left to right, string together conditions.
+***&&*** has an inherent higher operator than ||
+But if you need something evaluated first, wrap them in parenthesis (), has highest order of operation
+
 const username = isEmailVerified && response || "guest";
 RETURNs: "guest"
