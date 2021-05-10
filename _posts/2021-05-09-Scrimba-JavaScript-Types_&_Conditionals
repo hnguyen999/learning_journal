@@ -69,7 +69,8 @@ console.log(cartItemCount);
 
 RETURNS: 0
 
-4. Ternaries: || will return the truthy value first, else whatever you designate the falsey value to be
+4. SHORT-CIRCUITING
+Ternaries & || will return the truthy value first, else whatever you designate the falsey value to be
 
 const response = "Reed";
 
