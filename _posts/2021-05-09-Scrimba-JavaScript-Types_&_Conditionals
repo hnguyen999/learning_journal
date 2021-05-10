@@ -60,3 +60,12 @@ MEMORIZE 6 FALSEY IN JS:
 everything else is TRUTHY!
 
 
+3. Shorten Conditionals with Ternaries
+String them together but just do so with simple conditionals. Otherwise, just use an If statement.
+
+const isAuthenticated = false;
+const cartItemCount = isAuthenticated ? 1 : 0;
+console.log(cartItemCount);
+
+RETURNS: 0
+
